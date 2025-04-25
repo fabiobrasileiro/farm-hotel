@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+  
+  --color-white: #fff;
+
+  /* DIVINE OCEAN - tons de azul profundo */
+  --color-divine-ocean-50: #eaf7ff;
+  --color-divine-ocean-100: #ccecff;
+  --color-divine-ocean-200: #99d8ff;
+  --color-divine-ocean-300: #66c2ff;
+  --color-divine-ocean-400: #33aaff;
+  --color-divine-ocean-500: #008cff;
+  --color-divine-ocean-600: #006fd1;
+  --color-divine-ocean-700: #0054a3;
+  --color-divine-ocean-800: #003d75;
+  --color-divine-ocean-900: #002a55;
+  --color-divine-ocean-950: #001737;
+
+  /* HEAVEN SAND - tons de areia e dourado */
+  --color-heaven-sand-50: #fffdf6;
+  --color-heaven-sand-100: #fef8e4;
+  --color-heaven-sand-200: #fbeec5;
+  --color-heaven-sand-300: #f6dfa1;
+  --color-heaven-sand-400: #eed179;
+  --color-heaven-sand-500: #e2bc4f;
+  --color-heaven-sand-600: #c79f33;
+  --color-heaven-sand-700: #a07e24;
+  --color-heaven-sand-800: #78601b;
+  --color-heaven-sand-900: #594814;
+  --color-heaven-sand-950: #362c0b;
+
+  /* PEACE SKY - tons suaves e espirituais */
+  --color-peace-sky-50: #f5faff;
+  --color-peace-sky-100: #e1f3ff;
+  --color-peace-sky-200: #c2e7ff;
+  --color-peace-sky-300: #a2dbff;
+  --color-peace-sky-400: #82ceff;
+  --color-peace-sky-500: #61c1ff;
+  --color-peace-sky-600: #489ad4;
+  --color-peace-sky-700: #3575aa;
+  --color-peace-sky-800: #244f75;
+  --color-peace-sky-900: #182f47;
+  --color-peace-sky-950: #0e1b2a;
+} 
