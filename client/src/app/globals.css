@@ -1,11 +1,21 @@
 @import "tailwindcss";
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+
 @theme {
+
   
   --font-display: "Playfair Display", serif;
   --font-sans: "Source Sans 3", sans-serif;
   
   --color-white: #fff;
+
+  --color-grafite: #202020;
 
   /* DIVINE OCEAN - tons de azul profundo */
   --color-divine-ocean-50: #eaf7ff;
