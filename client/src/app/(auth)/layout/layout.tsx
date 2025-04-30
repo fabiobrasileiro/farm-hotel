@@ -5,13 +5,17 @@ import { ActiveProvider } from "@/context/activeContext";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <ActiveProvider>
-      <Navbar />
-      <div className="flex">
-        <SidebarProvider>
-          <AppSidebar />
-        </SidebarProvider>
-        <main className="flex-1 p-4">{children}</main>
+    <ActiveProvider >
+      <div className="flex flex-col h-screen">
+        <Navbar />
+        <div className="flex flex-1 overflow-hidden py-6 px-4">
+          <SidebarProvider>
+            <AppSidebar />
+          </SidebarProvider>
+          <main className="relative  px-2 flex-1 overflow-auto">
+            {children}
+          </main>
+        </div>
       </div>
     </ActiveProvider>
   );
