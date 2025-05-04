@@ -53,7 +53,7 @@ export function AppSidebar() {
     const { active, setActive } = useActive();
     return (
             <div>
-                <SidebarGroup className="p-0 h-full w-48   bg-gray-900 text-white rounded-md">
+                <SidebarGroup className="p-0 h-5/6 w-48   sticky bg-gray-900 text-white rounded-md">
                     <SidebarGroupContent>
                         <SidebarMenu >
                             {sidebarMenu.filter((section) => section.module === active).map((section) => (
