@@ -17,7 +17,7 @@ function Navbar() {
 
             <ul className="flex items-center self-end gap-8 text-white font-sans font-thin text-lg relative">
                 {[
-                    { label: "Dashboard", icon: LayoutDashboard, href: "/" },
+                    { label: "Dashboard", icon: LayoutDashboard, href: "/dashboard" },
                     { label: "Rooms", icon: Lamp, href: "/rooms" },
                     { label: "Attendance", icon: UsersRound, href: "/attendance" },
                     { label: "Accounts", icon: User, href: "/accounts" },
